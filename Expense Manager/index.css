@@ -1,0 +1,239 @@
+
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .navbar {
+        background: #003153;
+        padding: 0.5rem 4rem;
+        z-index: 1000;
+    }
+
+    .navbar .navbar-brand {
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+    #navbarSupportedContent a {
+        color: white;
+        font-size: 1.1rem;
+        padding: 0rem 2rem;
+    }
+
+    #navbarSupportedContent a:hover,
+    #navbarSupportedContent a.active {
+
+        color: #2E5090;
+    }
+  
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+
+    .mid {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        position: relative;
+    }
+
+   
+    .about {
+        background-color: whitesmoke;
+    }
+
+    .about .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: auto;
+    }
+
+    .about .text h6 {
+        color: #62c7e6;
+        font-weight: 800;
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+        padding-bottom: 20px;
+
+
+    }
+
+    .about .text h2 {
+        color: #2e5090;
+        font-weight: 700;
+        font-size: 2.7rem;
+
+    }
+
+    .about .text p {
+        color: rgb(0, 0, 0);
+        font-weight: 400;
+        font-size: 1.1rem;
+        letter-spacing: 0.5px;
+    }
+
+    .about .text a {
+        background: #62c7e6;
+        font-weight: 600;
+        padding: 0.4rem 1.4rem;
+        border-radius: 30px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .about .text a:hover {
+        background: #1fcecb;
+    }
+
+    .SERVICES {
+        background-color: whitesmoke;
+    }
+
+    .SERVICES .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: auto;
+    }
+
+    .SERVICES .text h6 {
+        color: #62c7e6;
+        font-weight: 800;
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+        padding-bottom: 20px;
+
+
+    }
+
+    .SERVICES .text h2 {
+        color: #2e5090;
+        font-weight: 700;
+        font-size: 2.7rem;
+
+    }
+
+    .SERVICES .text p {
+        color: rgb(0, 0, 0);
+        ;
+        font-weight: 400;
+        font-size: 1.1rem;
+        letter-spacing: 0.5px;
+    }
+
+    .PORTFOLIO {
+        background-color: black;
+    }
+
+    .PORTFOLIO .one {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 1.5rem 1.5rem;
+        border-radius: 7px;
+    }
+
+    .contact-us {
+        background-color: black;
+    }
+
+    .contact-us .text {
+        color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: auto;
+    }
+
+    .contact-us .text h6 {
+        color: #62c7e6;
+        font-weight: 800;
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+        padding-bottom: 20px;
+
+
+    }
+
+    .contact-us .text h2 {
+        color: #2e5090;        ;
+        font-weight: 700;
+        font-size: 2.7rem;
+
+    }
+
+    .contact-us .text p {
+        font-weight: 400;
+        font-size: 1.1rem;
+        letter-spacing: 0.5px;
+    }
+
+    .MANAGE-BUDGET {
+        background-color: black;
+    }
+
+    .MANAGE-BUDGET .one {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 1.5rem 1rem;
+        border-radius: 7px;
+    }
+    footer {
+        background-color: #62c7e6;
+    }
+
+    @media screen and (max-width:988px) {
+        .navbar {
+            padding: 1rem;
+        }
+
+        #navbarSupportedContent>ul {
+            padding-left: 0.8rem;
+        }
+
+        #navbarSupportedContent>ul>li:nth-child(n)>a {
+            padding: 0.8rem 0rem;
+        }
+
+        .mid .centered h2 {
+
+            font-size: 2.5rem;
+
+        }
+
+        .mid .centered p {
+
+            font-size: 1rem;
+
+        }
+
+        .mid .centered a {
+            font-size: 0.9rem;
+        }
+    }
+    
