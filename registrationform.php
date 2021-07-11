@@ -147,7 +147,7 @@
         </header>
         <!-- navbar -->
 
-        <form name="myForm" action="registration.php" onsubmit="return validateForm() " method="post">
+        <form name="myForm" action="registration.php" method="post">
 
             <div class="container">
                 <h1>Get Yourself Registered</h1>
@@ -162,7 +162,7 @@
                     <!--<a href="loginform.php"> -->
                 </div>
                 <div id="footer">
-                    <p><a href="loginform.php">Sign up</a> if already registered.
+                    <p><a href="loginform.php">Sign In</a> if already registered.
                     </p>
                 </div>
         </form>
