@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname="mydb";
+$dbname="expense_manager";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
@@ -13,18 +13,20 @@ if (!$conn)
 $Email =$_POST['email'];
 $Password =$_POST['psw'];
 
-$sql = "INSERT INTO logindb (Email, Password)" . "VALUES ('$Email','$Password')";
-echo $sql;
-die();
- 
-if (mysqli_query($conn, $sql))
+$sql = "SELECT id FROM user WHERE Email = '$Email' and Password = '$Password'";
+
+$result = mysqli_query($conn,$sql);
+$count = mysqli_num_rows($result);
+
+
+if ($count>0 )
 {
   header("Location: Expense-Manager.php");
 }
    else 
   
  { 
-echo "Error: " . $sql . "<br>" . mysqli_error($conn); 
+echo "Error: User does not exist!"; 
  
   }
 
