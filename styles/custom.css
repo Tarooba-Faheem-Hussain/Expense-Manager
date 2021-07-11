@@ -1,5 +1,4 @@
 
-
     * {
         margin: 0px;
         padding: 0px;
@@ -192,6 +191,7 @@
 
     .MANAGE-BUDGET {
         background-color: black;
+       padding: 70px;;
     }
 
     .MANAGE-BUDGET .one {
@@ -203,6 +203,11 @@
         padding: 1.5rem 1rem;
         border-radius: 7px;
     }
+
+
+
+
+
     footer {
         background-color: #62c7e6;
     }
@@ -236,7 +241,8 @@
             font-size: 0.9rem;
         }
     }
-    
+   
+
     .total-field
     {
         width: 150px;
