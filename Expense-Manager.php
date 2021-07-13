@@ -67,8 +67,8 @@
                                     <tbody>
                                         <tr>
                                             <td><button type="button" name="add" id="add" class="btn btn-success">+</button></td>
-                                            <td><input type="text" class="form-control" id="name0" placeholder="Enter Product" data-index="0" required></td>
-                                            <td><input type="number" class="form-control price" id="price0" placeholder="Enter price" data-index="0" required> </td>
+                                            <td><input type="text" class="form-control" id="name0" placeholder="Enter Product" data-index="0" ></td>
+                                            <td><input type="number" class="form-control price" id="price0" placeholder="Enter price" data-index="0" > </td>
                                             <td>
                                                 <select id="quantity0" class="custom-select quantity" data-index="0" required>
                                                     <option value="0">Select </option>

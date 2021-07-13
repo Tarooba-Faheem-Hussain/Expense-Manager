@@ -42,7 +42,7 @@
         </nav>
 
         <div class="mid">
-             <img src="images/MainImage.png" class="img-fluid"> 
+             <img src="images/CoverImage.png" class="img-fluid"> 
         </div>
 
     </header>
@@ -103,7 +103,7 @@
     <section id="services" class="SERVICES py-5">
         <div class="row align-items-center container my-5 mx-auto">
             <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-                <img class="img-fluid" src="images/about.png" width="90%">
+                <img class="img-fluid" src="images/services.png" width="90%">
             </div>
 
             <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
@@ -147,7 +147,7 @@
             </div>
             
             <div class="img col-lg-6 col-md-6 col-12 w-50 pt-3 pb-3">
-                <img class="img-fluid" src="images/about.png" width="90%">
+                <img class="img-fluid" src="images/contact-us.png" width="90%">
             </div>
 
         </div>

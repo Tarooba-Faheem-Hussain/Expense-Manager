@@ -25,7 +25,8 @@ $count = mysqli_num_rows($result);
   $sql = "INSERT INTO contact_us (Email,Subject,Message)" . "VALUES ('$Email','$Subject','$Message')";
   if (mysqli_query($conn, $sql))
   {
-   echo " Successfully Submitted! "; 
+    header("Location: index.php");
+   //echo " Successfully Submitted! "; 
   }
      else 
     { 
