@@ -7,11 +7,6 @@
         
     }
 
-    p{
-        text-align: justify;
-        text-justify: inter-word;
-    }
-
     html {
         scroll-behavior: smooth;
     }
